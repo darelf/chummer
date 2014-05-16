@@ -1,0 +1,30 @@
+{
+  "A": {
+    "attributes": 24, "skills": [46,10], "resources": [75000, 450000, 500000],
+    "magician": { "magic": 6, "skills": "2/5", "spells": 10 },
+    "mysticadept": { "magic": 6, "skills": "2/5", "spells": 10 },
+    "technomancer": { "resonance": 6, "skills": "2/5", "forms": 5 }
+  },
+  "B": {
+    "attributes": 20, "skills": [36,5], "resources": [50000,275000,325000],
+    "magician": { "magic": 4, "skills": "2/4", "spells": 7 },
+    "mysticadept": { "magic": 4, "skills": "2/4", "spells": 7 },
+    "technomancer": { "resonance": 4, "skills": "2/4", "forms": 2 },
+    "adept": { "magic": 6, "skills": "1/4" },
+    "aspectedmagician": { "magic": 5, "skills": "1/4" }
+  },
+  "C": {
+    "attributes": 16, "skills": [28,2], "resources": [25000,140000,210000],
+    "magician": { "magic": 3, "spells": 5 },
+    "mysticadept": { "magic": 3, "spells": 5 },
+    "technomancer": { "resonance": 3, "forms": 1 },
+    "adept": { "magic": 4, "skills": "1/2" },
+    "aspectedmagician": { "magic": 3, "skills": "1/2" }
+  },
+  "D": {
+    "attributes": 14, "skills": [22,0], "resources": [15000,50000,150000],
+    "adept": { "magic": 2 },
+    "aspectedmagician": { "magic": 2 }
+  },
+  "E": { "attributes": 12, "skills": [18,0], "resources": [6000,6000,100000] }
+}

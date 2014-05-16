@@ -1,0 +1,50 @@
+{
+  "Human": {
+    "priorities": {"A": 9,"B": 7,"C": 5,"D": 3,"E": 1},
+    "stats": {
+      "BODY": [1,6], "AGI": [1,6], "REA": [1,6], "STR": [1,6],
+      "WIL": [1,6], "LOG": [1,6], "INT": [1,6], "CHA": [1,6],
+      "EDG": [2,7], "ESS": 6, "MAG": [0,6], "RES": [0,6]
+    }
+  },
+  "Elf": {
+    "priorities": {"A": 8,"B": 6,"C": 3,"D": 0},
+    "stats": {
+      "BODY": [1,6], "AGI": [2,7], "REA": [1,6], "STR": [1,6],
+      "WIL": [1,6], "LOG": [1,6], "INT": [1,6], "CHA": [3,8],
+      "EDG": [1,6], "ESS": 6, "MAG": [0,6], "RES": [0,6]
+    },
+    "traits": ["Low-Light Vision"]
+  },
+  "Dwarf": {
+    "priorities": {"A": 7,"B": 4,"C": 1},
+    "stats": {
+      "BODY": [3,8], "AGI": [1,6], "REA": [1,5], "STR": [3,8],
+      "WIL": [2,7], "LOG": [1,6], "INT": [1,6], "CHA": [1,6],
+      "EDG": [1,6], "ESS": 6, "MAG": [0,6], "RES": [0,6]
+    },
+    "traits": ["+2 dice for pathogen and toxin resistance"],
+    "lifestyle": 20
+  },
+  "Ork": {
+    "priorities": {"A": 7,"B": 4,"C": 0},
+    "stats": {
+      "BODY": [4,9], "AGI": [1,6], "REA": [1,6], "STR": [3,8],
+      "WIL": [1,6], "LOG": [1,5], "INT": [1,6], "CHA": [1,5],
+      "EDG": [1,6], "ESS": 6, "MAG": [0,6], "RES": [0,6]
+    },
+    "traits": ["Low-Light Vision"]
+  },
+  "Troll": {
+    "priorities": {"A": 5,"B": 0},
+    "stats": {
+      "BODY": [5,10], "AGI": [1,5], "REA": [1,6], "STR": [5,10],
+      "WIL": [1,6], "LOG": [1,5], "INT": [1,5], "CHA": [1,4],
+      "EDG": [1,6], "ESS": 6, "MAG": [0,6], "RES": [0,6]
+    },
+    "traits": ["Thermographic Vision"],
+    "lifestyle": 100,
+    "reach": 1,
+    "armor": 1    
+  }
+}
